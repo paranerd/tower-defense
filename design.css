@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'aaargh';
+    src: url('font/aaargh.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	background-color: white;
+	overflow: hidden;
+}
+
+#canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 2px;
+	box-shadow: 0 0 15px 5px #BBB;
+}
+
+#lifes {
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	font-family: aaargh;
+	font-size: 32px;
+	color: #555;
+}
+
+#level {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+	text-align: center;
+	font-family: aaargh;
+	font-size: 32px;
+	color: #555;
+}
+
+#score {
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	font-family: aaargh;
+	font-size: 32px;
+	color: #555;
+}
+
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 960px;
+	height: 480px;
+	background-color: rgba(255,255,255,0.6);
+	font-family: aaargh;
+	font-size: 36px;
+	text-align: center;
+	line-height: 480px;
+	color: #555;
+}
+
+.hidden {
+	display: none;
+}
+
+.tower {
+	position: absolute;
+	background-image: url(sprites/tower.png);
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tower Defense</title>
+	<link rel="stylesheet" href="design.css" />
+</head>
+
+<body>
+	<canvas id="canvas" width=1000 height=500>
+		Canvas not supported
+	</canvas>
+	<div id="overlay" class="hidden">Game Over.</div>
+
+	<div id="lifes"></div>
+	<div id="level">- Level 1 -</div>
+	<div id="score">0</div>
+	
+	<button style="position: absolute; margin-top: 70px;" onclick="initWave(0);">Start Wave</button>
+    <button style="position: absolute; margin-top: 110px;" onclick="removeBullet(0);">Remove bullet</button>
+
+	<script type="text/javascript" src="js/requestAnimationFrame.js"></script>
+	<script type="text/javascript" src="js/towerdefense.js"></script>
+
+	</script>
+
+</body>
+</html>
